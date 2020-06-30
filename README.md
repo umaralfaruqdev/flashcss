@@ -2,9 +2,17 @@
 
 Selamat datang di project Open Source dedikasi untuk Indonesia.<br/>
 
+
+
+
+
 # :wave: Kontribusi
 
 Terimakasih kepad teman-teman yang sudah ikut berkontribusi dalam projek ini.<br/>Semoga kita bisa memajukan negara kita tercinta ini amiin.
+
+
+
+
 
 # :fire: Standar Koding
 
@@ -17,7 +25,9 @@ Kami memiliki standar peraturan untuk koding dalam projek ini:
 
 
 
-# Pull Request
+
+
+# :rocket: Pull Request
 
 Silahkan tanyakan terlebih dahulu sebelum memulai bekerja pada fitur baru yang signifikan.<br/>agar pull request anda tidak ditolak.
 
