@@ -1,0 +1,34 @@
+// reset
+
+@font-face {
+	font-family: Poppins Medium;
+	src: url("../dist/fonts/Poppins-Medium.ttf") format(truetype);
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Poppins Medium;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+}
+
+

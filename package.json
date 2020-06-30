@@ -1,0 +1,23 @@
+{
+  "name": "flashcss",
+  "version": "1.0.0",
+  "description": "The css framework dedicated for Indonesia.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"scss": "node-sass -w scss/flash.scss -o dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umaralfaruqdev/flashcss.git"
+  },
+  "keywords": [
+    "Framework"
+  ],
+  "author": "Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/umaralfaruqdev/flashcss/issues"
+  },
+  "homepage": "https://github.com/umaralfaruqdev/flashcss#readme"
+}
