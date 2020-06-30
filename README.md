@@ -18,7 +18,7 @@ Terimakasih kepada teman-teman yang sudah ikut berkontribusi dalam projek ini.<b
 
 Kami memiliki standar peraturan untuk koding dalam projek ini:
 
-1. Menggunakan Sass.
+1. Menggunakan Sass (scss).
 2. Menggunakan Css flex-box.
 3. Memberi awalan pada partial file dengan _ (underscore).
 4. bagi teman-teman yang mau menambahkan silahkan.
