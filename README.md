@@ -8,7 +8,7 @@ Selamat datang di project Open Source dedikasi untuk Indonesia.<br/>
 
 # :wave: Kontribusi
 
-Terimakasih kepad teman-teman yang sudah ikut berkontribusi dalam projek ini.<br/>Semoga kita bisa memajukan negara kita tercinta ini amiin.
+Terimakasih kepada teman-teman yang sudah ikut berkontribusi dalam projek ini.<br/>Semoga kita bisa memajukan negara kita tercinta ini amiin.
 
 
 
