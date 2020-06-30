@@ -6,7 +6,7 @@ Selamat datang di project Open Source dedikasi untuk Indonesia.<br/>
 
 # :eye: Live result
 
-Bagi teman-teman yang berkontribusi atau teman-teman yang mau melihat live hasilnya bisa mengunjungi https://flashcss.vercel.app/views ketika respo ini berubah maka view disana juba berubah.
+Bagi teman-teman yang berkontribusi atau teman-teman yang mau melihat live hasilnya bisa mengunjungi https://flashcss.vercel.app/views ketika repo ini berubah maka view disana juba berubah.
 
 # :wave: Kontribusi
 
