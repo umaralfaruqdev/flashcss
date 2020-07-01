@@ -17,53 +17,74 @@
 	font-family: inherit;
 	cursor: pointer;
 	transition: box-shadow .13s;
+	text-decoration: none;
+	font-size: 14px;
 }
 
+[class*="btn-"]:focus {
+	outline: 0;
+}
+
+// mixin
+
+
 .btn-primary {
-	background-color: #0070f3;
-	border-color: #0070f3;
+	@include bg-border(#0070f3);
+}
+
+.btn-primary:hover {
+	@include bg-border(#1064c6);
 }
 
 .btn-primary:focus {
-// border-color: #0070f361;
-	box-shadow: 0 0 0 3px #0070f361;
+	@include shadow(0 0 0 3px #0070f361);
 }
 
 .btn-success {
-	background-color: #18af42;
-	border-color: #18af42;
+	@include bg-border(#18af42);
+}
+
+.btn-success:hover {
+	@include bg-border(#0f9b36);
 }
 
 .btn-success:focus {
-// border-color: #18af4261;
-	box-shadow: 0 0 0 3px #18af4261;
+	@include shadow(0 0 0 3px #18af4261);
 }
+
 .btn-info {
-	background-color: #06a9ed;
-	border-color: #06a9ed;
+	@include bg-border(#06a9ed);
+}
+
+.btn-info:hover {
+	@include bg-border(#0a8abf);
 }
 
 .btn-info:focus {
-// border-color: #06a9ed61;
-	box-shadow: 0 0 0 3px #06a9ed61;
+	@include shadow(0 0 0 3px #06a9ed61);
 }
 
 .btn-warning {
-	background-color: #ef9100;
-	border-color: #ef9100;
+	@include bg-border(#ef9100);
+}
+
+.btn-warning:hover {
+	@include bg-border(#ca7b00);
 }
 
 .btn-warning:focus {
-	box-shadow: 0 0 0 3px #ef910061;
+	@include shadow(0 0 0 3px #ef910061);
 }
 
 .btn-danger {
-	background-color: #eb3c32;
-	border-color: #eb3c32;
+	@include bg-border(#eb3c32);
 }
 
+.btn-danger:hover {
+	@include bg-border(#c13229);
+}
 .btn-danger:focus {
-	box-shadow: 0 0 0 3px #eb3c3261;
+	@include shadow(0 0 0 3px #eb3c3261);
 }
 
 

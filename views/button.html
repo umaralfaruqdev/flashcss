@@ -8,19 +8,54 @@
 	<title>Button: Flashcss</title>
 	<link rel="stylesheet" href="../dist/css/flash.css">
 	<link rel="shortcut icon" href="assets/ico/bendera-indonesia.ico">
+	<link rel="stylesheet" href="assets/css/page.css">
 
-	<style>
-		body {
-			padding: 15px;
-			text-align: center;
-		}
-	</style>
 </head>
 <body>
-	<button type="button" class="btn-primary">Primary</button>
-	<button type="button" class="btn-success">Success</button>
-	<button type="button" class="btn-info">Info</button>
-	<button type="button" class="btn-warning">Warning</button>
-	<button type="button" class="btn-danger">Danger</button>
+	<nav class="my-navbar">
+		<div class="static">
+			<a class="brand" href="">Flashcss</a>
+		</div>
+		<div class="collapsable-navbar">
+			<ul class="navigation">
+				<li class="item"><a class="link" href="">Home</a></li>
+				<li class="item"><a class="link" href="">About</a></li>
+				<li class="item"><a class="link" href="">Component</a></li>
+			</ul>
+		</div>
+	</nav>
+	<section class="hero-section">
+		<div class="hero">
+			<h1 class="hero-title">Button</h1>
+			<p class="hero-sub tac">Bagi teman-teman yang mau ikut berkontribusi klik link di bawah</p>
+			<div class="hero-button">
+				<a class="btn-success" href="https://github.com/umaralfaruqdev/flashcss">Contribute</a>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="content-section page-container">
+		<div class="content-container">
+			<h2 class="content-title">Button standar</h2>
+			<div style="padding-top: 15px">
+				<button type="button" class="btn-primary">Primary</button>
+				<button type="button" class="btn-success">Success</button>
+				<button type="button" class="btn-info">Info</button>
+				<button type="button" class="btn-warning">Warning</button>
+				<button type="button" class="btn-danger">Danger</button>
+			</div>
+			<div style="padding-top: 75px">
+				<h2 class="content-title pt-15">What next?</h2>
+				<ol class="next-list">
+					<li>Button outline</li>
+					<li>Sizing button</li>
+					<li>Group</li>
+					<li>Dropdown</li>
+				</ol>
+				<a class="btn-info" href="https://github.com/umaralfaruqdev/flashcss">Contribute now</a>
+			</div>
+		</div>
+	</section>
 </body>
 </html>

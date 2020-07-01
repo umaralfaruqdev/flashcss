@@ -1,0 +1,9 @@
+// Mixins
+
+
+@mixin bg-border($color) {
+	background-color: $color;
+	border-color: $color;
+}
+
+

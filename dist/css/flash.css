@@ -49,11 +49,20 @@ p {
   padding: 0 15px;
   font-family: inherit;
   cursor: pointer;
-  transition: box-shadow .13s; }
+  transition: box-shadow .13s;
+  text-decoration: none;
+  font-size: 14px; }
+
+[class*="btn-"]:focus {
+  outline: 0; }
 
 .btn-primary {
   background-color: #0070f3;
   border-color: #0070f3; }
+
+.btn-primary:hover {
+  background-color: #1064c6;
+  border-color: #1064c6; }
 
 .btn-primary:focus {
   box-shadow: 0 0 0 3px #0070f361; }
@@ -62,12 +71,20 @@ p {
   background-color: #18af42;
   border-color: #18af42; }
 
+.btn-success:hover {
+  background-color: #0f9b36;
+  border-color: #0f9b36; }
+
 .btn-success:focus {
   box-shadow: 0 0 0 3px #18af4261; }
 
 .btn-info {
   background-color: #06a9ed;
   border-color: #06a9ed; }
+
+.btn-info:hover {
+  background-color: #0a8abf;
+  border-color: #0a8abf; }
 
 .btn-info:focus {
   box-shadow: 0 0 0 3px #06a9ed61; }
@@ -76,12 +93,20 @@ p {
   background-color: #ef9100;
   border-color: #ef9100; }
 
+.btn-warning:hover {
+  background-color: #ca7b00;
+  border-color: #ca7b00; }
+
 .btn-warning:focus {
   box-shadow: 0 0 0 3px #ef910061; }
 
 .btn-danger {
   background-color: #eb3c32;
   border-color: #eb3c32; }
+
+.btn-danger:hover {
+  background-color: #c13229;
+  border-color: #c13229; }
 
 .btn-danger:focus {
   box-shadow: 0 0 0 3px #eb3c3261; }
