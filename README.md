@@ -20,7 +20,8 @@ Kami memiliki standar peraturan untuk koding dalam projek ini:
 2. Tanpa Jquery (pure js).
 3. Menggunakan Css flex-box.
 4. Memberi awalan pada partial file dengan _ (underscore).
-5. bagi teman-teman yang mau menambahkan silahkan.
+5. Membuat branch baru.
+6. bagi teman-teman yang mau menambahkan silahkan.
 
 # :rocket: Pull Request
 
