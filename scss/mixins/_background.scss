@@ -5,5 +5,8 @@
 	background-color: $color;
 	border-color: $color;
 }
+@mixin text-color($color){
+	color: $color;
+}
 
 
