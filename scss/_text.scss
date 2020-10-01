@@ -1,0 +1,18 @@
+[class*="text-"] {
+    // Wait I will fill it later.
+}
+.text-warning {
+  @include text-color(#ef9100);
+}
+.text-danger {
+  @include text-color(#eb3c32);
+}
+.text-primary {
+  @include text-color(#0070f3);
+}
+.text-success {
+  @include text-color(#18af42);
+}
+.text-info {
+  @include text-color(#06a9ed);
+}
