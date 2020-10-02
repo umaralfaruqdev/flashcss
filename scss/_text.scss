@@ -16,3 +16,54 @@
 .text-info {
   @include text-color(#06a9ed);
 }
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+.text-underline{
+  text-decoration: underline;  
+}
+.text-underline-none{
+  text-decoration: none;
+}
+.text-italic{
+  font-style: italic;
+}
+.text-oblique{
+  font-style: oblique;
+}
+.font-weight-100{
+  @include font-weight(100);
+}
+.font-weight-200{
+  @include font-weight(200);
+}
+.font-weight-300{
+  @include font-weight(300);
+}
+.font-weight-400{
+  @include font-weight(400);
+}
+.font-weight-500{
+  @include font-weight(500);
+}
+.font-weight-600{
+  @include font-weight(600);
+}
+.font-weight-700{
+  @include font-weight(700);
+}
+.font-weight-800{
+  @include font-weight(800);
+}
+.font-weight-900{
+  @include font-weight(900);
+}
+.font-weight-bold{
+  @include font-weight(bold);
+}
